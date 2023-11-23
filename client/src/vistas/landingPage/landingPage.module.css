@@ -1,0 +1,45 @@
+body {
+    background-image: url("../../assets/dogs.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    margin: auto;
+    width: 300px;
+    height: 100px;
+  
+    background: linear-gradient(to bottom, #3784f7, #002b41);
+    border: solid;
+  
+    border-color: black;
+    color: rgb(210, 200, 200);
+    font-family: var(--primary-fon);
+    font-size: 30px;
+    padding: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.762);
+    transition: background-color 200ms, box-shadow 300ms;
+  }
+  
+  .button:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+  
+    transition: 200ms;
+  }
+  
+  .btn-home-link {
+    display: inline-block;
+    position: fixed;
+    font-family: var(--primary-font);
+    top: 42px;
+    left: 80%;
+  }
+  

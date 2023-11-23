@@ -1,0 +1,33 @@
+.containerPaginado {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 1rem 0;
+  }
+  .containerPaginado button {
+    padding: 0.5rem;
+  }
+  
+  .button {
+    background: linear-gradient(to bottom, #000000, #5c5757);
+  
+    border: 2.5px solid rgb(0, 242, 255);
+    clip-path: polygon(0% 100%, 20% 0%, 100% 0%, 80% 100%);
+    margin-left: 1rem;
+    width: 150px;
+    color: rgb(255, 247, 247);
+  }
+  .button:hover {
+    color: rgb(0, 217, 72);
+    border-width: 2px;
+    border-color: rgb(245, 239, 239);
+  }
+  .pageNumber {
+    border: 2.5px solid rgb(0, 242, 255);
+    padding: 0.5rem;
+    width: 150px;
+    clip-path: polygon(0% 100%, 20% 0%, 100% 0%, 80% 100%);
+    background: linear-gradient(to bottom, #000000, #5c5757);
+    color: #f4e6e6;
+  }
+  

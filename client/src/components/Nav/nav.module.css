@@ -1,0 +1,47 @@
+.navCont {
+    background: linear-gradient(to bottom,#3784f7, #002b41);
+    cursor: auto;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+  }
+  
+  .link {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding-bottom: 0.5rem;
+    transition: 0.3s;
+  }
+  
+  .link:hover {
+    transition: 80ms;
+    color: rgb(0, 217, 72);
+  }
+  
+  .logoContainer {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin-left: 1rem;
+  }
+  .logo {
+    height: 100%;
+    width: auto;
+  }
+  
+  .centeredLinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .searchBarContainer {
+    margin-right: 2%;
+  }
+  

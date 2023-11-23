@@ -1,0 +1,13 @@
+export const URL = "http://localhost:3001";
+export const GET_DOGS = "GET_DOGS";
+export const GET_ID = "GET_ID";
+export const GET_TEMPS = "GET_TEMPS";
+export const POST_DOG = "POST_DOG";
+export const RESET_DETAIL = "RESET_DETAIL";
+export const SORT_BY_WEIGHT = "SORT_BY_AGE";
+export const SORT_BY_NAME = "SORT_BY_NAME";
+export const FILTER_BY_DATA = "FILTER_BY_DATA";
+export const FILTER_BY_TEMPS = "FILTER_BY_TEMPS";
+export const SEARCH_NAME = "SEARCH_NAME";
+export const SET_PAGE = "SET_PAGE";
+export const RESET_AUX = "RESET_AUX";

@@ -1,0 +1,109 @@
+.form-Container {
+    display: grid;
+    gap: 3rem;
+    padding: 1rem;
+    justify-items: center;
+    cursor: auto;
+  }
+  
+  .form-Container label {
+    font-family: var(--primary-font);
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  
+  .form {
+    padding: 2rem;
+    padding-top: 1rem;
+    border-radius: 10px;
+    background-color: rgb(204, 204, 204);
+    display: grid;
+    height: auto;
+    width: 400px;
+    box-shadow: 1px 1px 8px 1px rgb(0, 0, 0);
+  }
+  
+  .form input {
+    font-size: 0.8rem;
+  }
+
+  .form label {
+    color: #000000;
+    font-weight: bold;
+  }
+  
+  .error {
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: rgb(255, 63, 63);
+    background-color: rgb(38, 37, 37);
+    font-family: sans-serif;
+  }
+  
+  textarea {
+    resize: none;
+    font-family: Consolas, monaco, monospace;
+    font-size: 1rem;
+  }
+  
+  .team-checkbox {
+    display: grid;
+    padding-top: 0.2rem;
+    grid-template-columns: 87% 13%;
+    font-family: sans-serif;
+  }
+  
+  .buttonX {
+    font-family: var(--primary-font);
+    color: rgb(7, 7, 7);
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #ff0000, #410000);
+  }
+  
+  .buttonX:hover {
+    background-color: var(--color-black);
+    transition: 300ms;
+  }
+  
+  .buttonSubmit {
+    font-family: var(--primary-font);
+    font-size: 1.3rem;
+    color: var(--color-white);
+    border-radius: 4px;
+    width: auto;
+    height: auto;
+    background: linear-gradient(to bottom, #3784f7, #002b41);
+    border: solid;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  
+  .buttonSubmit:hover {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.7);
+  
+    transition: 200ms;
+  }
+  
+  .selectTeams {
+    color: white;
+    padding: 0.7rem 0;
+  }
+  
+  .selectTeams select {
+    margin-bottom: 0.2rem;
+    color: rgb(255, 255, 255);
+  }
+  .teams {
+    background-color: #3b3a3a;
+    margin: 2px;
+    padding-left: 10px;
+    padding-top: 4px;
+    text-align: left;
+    font-size: 0.8rem;
+    height: auto;
+  }
+  
